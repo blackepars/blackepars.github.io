@@ -38,6 +38,7 @@
     height: 200px;
 
 }
+
 .contentgif {
     text-align: center;
     color: #ffffff;
@@ -102,7 +103,7 @@
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
-    color: #ffffff;
+    color: #999297;
     display: block;
   }
   .sidebar a i {
