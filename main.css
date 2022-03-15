@@ -5,6 +5,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: #636363;
+
 }
 
 #backgroundBody {
@@ -42,7 +43,8 @@
 .contentgif {
     text-align: center;
     color: #ffffff;
-    padding: 10px
+    padding: 10px;
+    font-family: 'Roboto Condensed';
 
   }
 .contentgif h2{
@@ -102,6 +104,7 @@
     padding: 6px 6px 6px 6px;
     text-decoration: none;
     font-size: 20px;
+    font-family: 'Roboto Condensed';
     font-weight: bold;
     color: #999297;
     display: block;
