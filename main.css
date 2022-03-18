@@ -16,19 +16,6 @@
     background-color: #1e1e1e;
 }
 
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-
-    background: #120e07;
-    color: #ffffff;
-}
-
 .topnav {
     text-align: center;
     background-color: #000000;
@@ -40,39 +27,58 @@
 
 }
 
-.contentgif {
+.topnav a {
+  float: center;
+  color: #f2f2f2;
+  padding: 16px 16px 16px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-style: solid;
+  border-color: #1462ba;
+  border-width: 2px;
+  text-align: center;
+  border-radius: 50%;
+  background: #120e07;
+
+}
+
+
+.topnav a:hover {
+  opacity: 0.7;
+  color: #000000;
+  background-color: #ffffff;
+  border-color: #00D1D1;
+}
+.topnav a.active {
+  color: white;
+}
+
+
+
+
+
+
+
+.contentnavbar {
     text-align: center;
     color: #ffffff;
     padding: 10px;
     font-family: 'Roboto Condensed';
-
   }
-.contentgif h2{
+
+.contentgif {
+    text-align: center;
+    color: #ffffff;
+    padding: 5px;
+    font-family: 'Roboto Condensed';
+    background-color: #1e1e1e;
+  }
+  
+.contentgif h3{
   color: #1462ba;
-  padding: 5px;
+  padding: 2px;
 }
 
-.topnav a {
-    float: center;
-    color: #f2f2f2;
-    padding: 16px 16px 16px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    border-style: solid;
-    border-color: #1462ba;
-    border-width: 2px;
-}
-.topnav a:hover {
-    opacity: 0.7;
-    color: #000000;
-    background-color: #ffffff;
-    border-color: #00D1D1;
-
-
-}
-.topnav a.active {
-    color: white;
-}
 
 .column {
   float: left;
@@ -88,11 +94,10 @@
 }
 
 .sidebar {
-    width: 200px;
     position: fixed;
     z-index: 1;
     top: 200px;
-    left: 8px;
+    left: 0px;
     background-color: #000000;
     overflow-x: hidden;
     padding-top: 16px;
@@ -101,22 +106,21 @@
   }
   
   .sidebar a {
+    float: center;
+    color: #999297;
     padding: 6px 6px 6px 6px;
     text-decoration: none;
+    border: none;
     font-size: 20px;
     font-family: 'Roboto Condensed';
     font-weight: bold;
-    color: #999297;
     display: block;
-  }
-  .sidebar a i {
-    border-style: solid;
-    border-color: #1462ba;
-    border-width: 2px;
+
   }
   
+  
   .sidebar a:hover {
-    color: #1462ba;
+    color: #379fe4;
   }
   
   .content {
