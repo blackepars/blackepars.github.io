@@ -53,6 +53,9 @@
   color: #1462ba;
   padding: 2px;
 }
+.contentgif h5{
+  color: #c7d4e4;
+}
 
 .row:after {
   content: "";
